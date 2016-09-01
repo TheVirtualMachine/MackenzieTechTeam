@@ -1,0 +1,56 @@
+$title-colour: white; // The colour of the page title text.
+$nav-background-colour: white; // The background colour of the nav bar.
+$nav-element-colour: #555; // The colour for the elements in the nav bar.
+$nav-hover-colour: #111; // The colour of nav elements when being hovered over.
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	min-height: 100%;
+}
+
+.flex {
+	display: flex;
+}
+
+nav {
+	position: fixed;
+	background: $nav-background-colour;
+	width: 100vw;
+	text-align: center;
+	padding: 1.5vh 0;
+	
+	a {
+		width: 100%;
+		text-decoration: none;
+		color: $nav-element-colour;
+	}
+	
+	a:hover {
+		color: $nav-hover-colour;
+	}
+}
+
+#page-title {
+	width: 100%;
+	height: 30vh;
+	background-image: url("../images/header-bg.jpg");
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10em;
+	color: $title-colour;
+}
+
+.center {
+	text-align: center;
+}
+
+iframe {
+	//overflow: hidden;
+	//height: 100vh;
+}
