@@ -45,13 +45,13 @@ nav {
 }
 
 #page-title {
-	width: 100%;
+	width: 40%;
 	height: 30vh;
 	background-image: url("../images/header-bg.jpg");
-	text-align: center;
+	text-align: left;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: left;
+	align-items: left;
 	color: $title-colour;
 	
 	font-size: 10em;
